@@ -1,0 +1,713 @@
+/*------------公共样式----------------*/
+#containerNav,#containerMain,#containerLink{
+    width:1200px;
+    margin:0 auto;
+}
+/*----------------------container-------------------------*/
+/*----------------------container-nav-------------------------*/
+#containerBack{
+    height:100%;
+    border-top: 2px solid #357E34;
+    padding-top: 10px;
+    background: #f4f4ee;
+    overflow: hidden;
+}
+#containerNav{
+    height: 114px;
+    color: #444;
+    padding-bottom: 10px;
+}
+#containerNav>span{
+    width: 5px;
+    height: 9px;
+    font: 9px/24px "宋体";
+    margin: 0 10px;
+    float: left;
+    color: #444;
+}
+#containerNav .nav-item{
+    position: relative;
+    border: 1px solid #ddd;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 25px 0 8px;
+    background: #fff;
+    color: #444;
+    float: left;
+}
+#containerNav .nav-item>span{
+    padding: 0 10px;
+    cursor: pointer;
+}
+#containerNav .nav-item b img{
+    position: absolute;
+    right: 14px;
+    top: 9px;
+}
+#containerNav .nav-item:hover img{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+#containerNav .nav-item ul{
+    position: absolute;
+    top: 24px;
+    left: -1px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background:  #fff;
+    padding: 5px 0;
+    display: none;
+    z-index: 10;
+}
+#containerNav .nav-item em{
+    font-style: normal;
+    margin-left: 5px;
+}
+#containerNav .nav-item ul li{
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    text-indent: 18px;
+    border-bottom: 1px dashed #EEE;
+}
+#containerNav .nav-item ul li a{
+    color: #444;
+}
+#containerNav>img{
+    margin-top: 10px;
+}
+/*----------------------container-main-------------------------*/
+#containerMain{
+    overflow: hidden;
+}
+#containerMain .main-side{
+    width: 200px;
+    height:100%;
+    float: left;
+}
+#containerMain .main-side .side-menus{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+#containerMain .main-side .side-menus h2{
+    height: 35px;
+    padding-left: 10px;
+    font:bold 16px/35px "宋体";
+    border-bottom: 1px dotted #ddd;
+}
+#containerMain .main-side .side-menus>div a{
+    display: block;
+    height: 50px;
+    color: #444;
+    line-height: 50px;
+    padding-left: 10px;
+    border-bottom: 1px dotted #ddd;
+}
+#containerMain .main-side .side-menus>div a img{
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+}
+#containerMain .main-side .side-menus>div a span{
+    padding-left: 5px;
+    font-size: 14px;
+}
+#containerMain .main-side .side-menus>div a span em{
+    color: #999;
+    font-style: normal;
+}
+#containerMain .main-side .side-menus>div a:hover span{
+    color: blue;
+}
+#containerMain .main-side .side-menus>div a.active{
+    background: url(../images/lists01.png) right no-repeat;
+    font-weight: bold;
+}
+#containerMain .main-side .side-menus>div a.active span{
+    color: #F60;
+}
+#containerMain .main-side .side-product{
+    height: 100%;
+    border: 1px solid #DDDDDD;
+    background-color: #FFF;
+    overflow: hidden;
+    padding:10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#containerMain .main-side .side-product>span{
+    font-size: 14px;
+    font-weight: bold;
+}
+#containerMain .main-side .side-product a{
+    background: url(../images/pic.png) no-repeat;
+    background-position: right -355px;
+    display: block;
+    padding-right: 20px;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+}
+#containerMain .main-side .side-product a span{
+    background-position: 0 -355px;
+    display: block;
+    padding-left: 20px;
+    color: #FFF;
+    font-size: 17px;
+    height: 45px;
+    line-height: 45px;
+}
+#containerMain .main-side .side-relate{
+    height: 100%;
+    border: 1px solid #DDDDDD;
+    background-color: #FFF;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#containerMain .main-side .side-relate h2{
+    border-bottom: 2px solid #85BC56;
+    height: 30px;
+    line-height: 30px;
+    background-color: #FFF;
+}
+#containerMain .main-side .side-relate h2 span{
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#containerMain .main-side .side-relate ul{
+    padding: 10px;
+}
+#containerMain .main-side .side-relate ul li{
+    margin-bottom: 10px;
+}
+#containerMain .main-side .side-relate ul li a{
+    color: #444;
+}
+#containerMain .main-side .side-relate ul li a:hover{
+    color: blue;
+}
+#containerMain .main-side .side-relate ul li a span{
+    color: #FF0000;
+    font-weight:bold;
+}
+#containerMain .main-side .side-brief{
+    height: 100%;
+    border: 1px solid #DDDDDD;
+    background-color: #FFF;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#containerMain .main-side .side-brief h2{
+    border-bottom: 2px solid #85BC56;
+    height: 30px;
+    line-height: 30px;
+    background-color: #FFF;
+
+ }
+#containerMain .main-side .side-brief h2 span{
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#containerMain .main-side .side-brief p{
+    padding: 10px;
+    text-indent: 2em;
+    color:#444;
+}
+#containerMain .main-contents{
+    width: 980px;
+    float: right;
+}
+#containerMain .main-contents .contents-brand{
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+#containerMain .main-contents .contents-brand table{
+    margin-bottom: 5px;
+}
+#containerMain .main-contents .contents-brand>div{
+    border-bottom: 1px dashed #EFEFEF;
+    padding: 10px 0;
+    overflow: hidden;
+}
+#containerMain .main-contents .contents-brand h2{
+    width: 80px;
+    text-align: right;
+    line-height: 20px;
+    font-size:12px;
+    color: #999;
+    float: left;
+}
+#containerMain .main-contents .brand-item01>div{
+    position: relative;
+    width: 858px;
+    float: right;
+}
+#containerMain .main-contents .brand-item01 .brand-letters input{
+    width: 152px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #ddd;
+    padding: 0 5px;
+}
+#containerMain .main-contents .brand-item01 .brand-letters ul{
+    padding-top: 8px;
+    height: 34px;
+}
+#containerMain .main-contents .brand-item01 .brand-letters ul li{
+    float: left;
+    display: inline;
+    padding: 3px 6px;
+    cursor: pointer;
+    height: 14px;
+    line-height: 14px;
+    position: relative;
+    color: #fe6400;
+    margin-right: 6px;
+}
+#containerMain .main-contents .brand-item01 .brand-letters ul li.active span{
+    display: block;
+    width: 0;
+    height: 0;
+    border: transparent solid 5px;
+    border-top: #ff6400 solid 5px;
+    bottom: -10px;
+    left: 45%;
+    margin-left: -4px;
+    position: absolute;
+}
+#containerMain .main-contents .brand-item01 .brand-letters ul li.active{
+    background: #ff6203;
+    color: #fff;
+}
+#containerMain .main-contents .brand-item01 .brand-flex{
+    width:34px;
+    height:20px;
+    float: right;
+    color: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+#containerMain .main-contents .brand-item01 .brand-flex img{
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+#containerMain .main-contents .brand-item01 .brand-flex.active img{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+#containerMain .main-contents  .brand-brands{
+    padding: 10px 10px 0 10px;
+    width: 749px;
+    position: relative;
+    margin-top: -5px;
+    z-index: 20;
+    height: 118px;
+    overflow: hidden;
+}
+#containerMain .main-contents  .brand-brands.active{
+    height:156px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+#containerMain .main-contents .brand-item01 .brand-brands>div{
+    width: 749px;
+    line-height: 20px;
+}
+#containerMain .main-contents .brand-item01 .brand-brands>div>div{
+    width: 749px;
+    line-height: 20px;
+}
+#containerMain .main-contents .brand-item01 .brand-brands>div>div>div{
+    float: left;
+    display: inline;
+    margin: 0 -1px -1px 0;
+    position: relative;
+    z-index: 10;
+    width: 121px;
+    height: 38px;
+    border: 1px solid #ddd;
+}
+#containerMain .main-contents .brand-item01 .brand-brands>div>div>div a{
+    display: block;
+    width: 121px;
+    height: 38px;
+    text-align: center;
+    line-height:38px;
+}
+#containerMain .main-contents .brand-item01 .brand-brands>div>div>div a:hover{
+    background: #fff6ef;
+}
+#containerMain .main-contents .brand-item01 .brand-brands .all .all-li a{
+    background: #fff6ef;
+}
+
+#containerMain .main-contents .brand-item01 .brand-brands>div{
+    line-height: 20px;
+}
+
+#containerMain .main-contents .brand-item01 .brand-brands>div{
+    line-height: 20px;
+}
+
+#containerMain .main-contents .brand-item02 a{
+     padding:0 8px;
+     display: inline-block;
+     height: 20px;
+     color: #444;
+     line-height: 20px;
+ }
+#containerMain .main-contents .brand-item02 a.active{
+    background: #ff6203;
+    border-radius:8px;
+}
+#containerMain .main-contents .brand-item02 a:hover{
+    background: #ff6203;
+    border-radius:8px;
+}
+#containerMain .main-contents .brand-item03 a{
+    padding:0 8px;
+    display: inline-block;
+    height: 20px;
+    color: #444;
+    line-height: 20px;
+}
+#containerMain .main-contents .brand-item03 a.active{
+    background: #ff6203;
+    border-radius:8px;
+}
+#containerMain .main-contents .brand-item03 a:hover{
+    background: #ff6203;
+    border-radius:8px;
+}
+/*----------------------contents-menus-------------------------*/
+#containerMain .main-contents .contents-menus{
+    height: 53px;
+    margin-bottom: 10px;
+}
+#containerMain .main-contents .contents-menus .menus-hanging{
+    width: 978px;
+    height: 53px;
+    position: relative;
+    z-index: 100;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+#containerMain .main-contents .contents-menus .menus-item01{
+     height: 53px;
+    float: left;
+}
+#containerMain .main-contents .contents-menus .menus-item01 a{
+    text-decoration: none;
+    color: #444;
+    float: left;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span{
+    height: 53px;
+    border-right: 1px solid #ddd;
+    display: block;
+    float: left;
+    padding: 0 23px 0 18px;
+    line-height: 53px;
+    cursor: pointer;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.bg01{
+    background:url(../images/lists02.png) no-repeat 34px 4px;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.bg02{
+    background:url(../images/lists02.png) no-repeat 34px -172px;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.bg03{
+    background:url(../images/lists02.png) no-repeat 5px -344px;
+    padding-left: 35px;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.bg01:hover{
+     background:#53aa5b url(../images/lists02.png) no-repeat -32px 4px;
+     color: #fff;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.bg02:hover{
+    background:#53aa5b url(../images/lists02.png) no-repeat -32px -172px;
+    color: #fff;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.active{
+    background: #53aa5b;
+    color: #fff;
+}
+#containerMain .main-contents .contents-menus .menus-item01>span div{
+    background: url(../images/lists01.gif) no-repeat  0 -322px;;
+    margin: 19px 3px 0 10px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+#containerMain .main-contents .contents-menus .menus-item01>span:hover{
+    background:#53aa5b;
+    color: #fff;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.active{
+    background: #53aa5b;
+    color: #fff;
+}
+#containerMain .main-contents .contents-menus .menus-item01 span.active{
+    background: #53aa5b;
+    color: #fff;
+}
+#containerMain .main-contents .contents-menus .menus-item02{
+     float: right;
+     height:33px;
+     width: 300px;
+     padding:10px;
+}
+#containerMain .main-contents .contents-menus .menus-item02 a{
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    float: right;
+    color: #444;
+    background: #eee;
+    margin-left: 10px;
+    line-height: 33px;
+}
+#containerMain .main-contents .contents-menus .menus-item02 a:hover{
+    color: blue;
+}
+#containerMain .main-contents .contents-menus .menus-item02>span{
+     margin-left: 10px;
+     line-height:33px;
+     float: right;
+}
+#containerMain .main-contents .contents-menus .menus-item02>span span{
+    color: #FF0000;
+}
+#containerMain .main-contents .contents-lists{
+    position: relative;
+    z-index: 99;
+    width: 988px;
+}
+/*----------------------contents-lists-------------------------*/
+#containerMain .contents-lists{
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+    width: 988px;
+}
+#containerMain .contents-lists .lists-item{
+    position: relative;
+    width: 235px;
+    height: 405px;
+    display: inline;
+    float: left;
+    border: 1px solid #e6e6e6;
+    line-height: 18px;
+    margin: 5px 10px 10px 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+#containerMain .contents-lists .lists-item:hover{
+    border: 1px solid darkgreen;
+}
+#containerMain .contents-lists .lists-item .lists-con{
+    padding: 14px 14px 0 14px;
+}
+#containerMain .contents-lists .lists-item .lists-con .lists-show{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin:0 auto;
+    text-align:center;
+}
+#containerMain .contents-lists .lists-item .lists-show h2{
+    position: absolute;
+    height: 26px;
+    font:bold 12px/25px "微软雅黑";
+    text-align: center;
+    background: #F5FFCC;
+    right: 0;
+    top: 0;
+    padding: 0 10px;
+    color: darkgreen;
+    border: 1px #C9D38F solid;
+}
+#containerMain .contents-lists .lists-item .lists-show>a{
+    height: 18px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+#containerMain .contents-lists .lists-item .lists-show>a em{
+    background: url(../images/lists03.png)  no-repeat 0 -289px;
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    float: left;
+}
+#containerMain .contents-lists .lists-item .lists-show>a span{
+    height: 18px;
+    line-height: 18px;
+    background: #ff8a00;
+    padding: 0 3px 0 0;
+    display: inline-block;
+    float: left;
+    color: #fff;
+}
+#containerMain .contents-lists .lists-item .lists-tab {
+    margin-top: 10px;
+    height: 35px;
+    overflow: hidden;
+}
+#containerMain .contents-lists .lists-item .lists-tab .btnL{
+    outline:none;
+    border:none;
+    width: 16px;
+    height: 29px;
+    background: url(../images/lists01.gif) no-repeat 0 -531px;
+    cursor: pointer;
+    margin-top: 2px;
+    float: left;
+}
+
+#containerMain .contents-lists .lists-item .lists-tab .btnR{
+    outline:none;
+    border:none;
+    width: 16px;
+    height: 29px;
+    background: url(../images/lists01.gif) no-repeat 0 -560px;
+    cursor: pointer;
+    margin-top: 2px;
+    float: right;
+}
+#containerMain .contents-lists .lists-item .lists-tab>div{
+    margin:0 9px;
+    width: 157px;
+    height: 34px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+#containerMain .contents-lists .lists-item .lists-tab>div ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#containerMain .contents-lists .lists-item .lists-tab>div ul li{
+    margin: 0 5px 5px 0;
+    float: left;
+    width: 34px;
+    height: 34px;
+}
+#containerMain .contents-lists .lists-item .lists-tab>div li img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    background: #fff;
+}
+#containerMain .contents-lists .lists-item .lists-con>a{
+    line-height: 16px;
+    height: 32px;
+    margin: 10px auto;
+    font-size: 13px;
+    display: block;
+    color: #444;
+    width: 200px;
+    text-align: left;
+    overflow: hidden;
+}
+#containerMain .contents-lists .lists-item .lists-con>p{
+     margin-bottom: 10px;
+     line-height: 15px;
+     display: block;
+    color: #999;
+     overflow: hidden;
+     text-align: center;
+
+}
+#containerMain .contents-lists .lists-item .lists-con>p.h21{
+    height: 21px;
+}
+#containerMain .contents-lists .lists-item .lists-con>p span{
+    font-weight: bold;
+    color: #FF6600;
+    font-size:15px;
+
+}
+#containerMain .contents-lists .lists-item .lists-con>p em{
+    padding:0 15px 0 4px;
+    margin-right: 10px;
+    font-style: normal;
+
+}
+#containerMain .contents-lists .lists-item .lists-link{
+    border-top: 1px solid #ddd;
+}
+
+#containerMain .contents-lists .lists-item .lists-link a.sc{
+    display: block;
+    width: 89px;
+    height: 36px;
+    float: left;
+    line-height: 35px;
+    border-right: 1px solid #ddd;
+    background: url(../images/lists23.jpg) no-repeat center -11px;
+}
+#containerMain .contents-lists .lists-item .lists-link a.sc:hover span{
+    display: block;
+}
+#containerMain .contents-lists .lists-item .lists-link a span{
+    display: none;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;;
+    cursor: pointer;
+    background: #53aa5b;
+
+}#containerMain .contents-lists .lists-item .lists-link a.add{
+     display: block;
+     width: 145px;
+     height: 35px;
+     float: right;
+     line-height: 35px;
+     background: url(../images/lists23.jpg) no-repeat center -59px;
+ }
+#containerMain .contents-lists .lists-item .lists-link a.add:hover span{
+    display: block;
+}
+#containerMain .main-contents .contents-pages{
+    color: #999;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#containerMain .main-contents .contents-pages a{
+    border: 1px solid #ddd;
+    margin: 2px;
+    color: #444;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 30px;
+    height: 30px;
+    background: #fff;
+    display: inline-block;
+}
+#containerMain .main-contents .contents-pages a:hover{
+    background: #FF0000;
+}
+#containerMain .main-contents .contents-pages a.active{
+    background: #FF0000;
+}
+
+
+
+

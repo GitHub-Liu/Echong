@@ -1,0 +1,663 @@
+/*------------公共样式----------------*/
+#mainShow,#activity,#shopping,#surpriseTit,#surpriseCon,#boutique,#foodsFs{
+    width:1200px;
+    margin:0 auto;
+}
+/*----------------------------main--------------------------------*/
+#mainBack{
+    overflow: hidden;
+    position: relative;
+}
+#mainLunbo{
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+#mainLunbo .lunbo-pics>div>div{
+    width: 744px;
+    margin: 0 auto;
+}
+#mainLunbo .lunbo-pics>div{
+    display: none;
+}
+#mainLunbo .lunbo-counts{
+    top: 325px;
+    left: 10px;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+}
+#mainLunbo .lunbo-counts a{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    line-height: 21px;
+    background-color: #999;
+    border-radius: 50%;
+    color: #fff;
+}
+#mainLunbo .lunbo-counts a.on{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    line-height: 21px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #999;
+}
+#main{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+#mainShow{
+    height:360px;
+}
+#mainShow .main-side{
+    width: 200px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    margin-right: 2px;
+    overflow: hidden;
+    float: right;
+}
+#mainShow .main-side div+div{
+    border-top: 1px dotted #ddd;
+}
+#mainShow .main-side div{
+    width:200px;
+    height:119px;
+    position: relative;
+}
+#mainShow .main-side div img{
+    transition: all .2s ease-out;
+    position: absolute;
+    left:0;
+    top:0;
+}
+#mainShow .main-side div img:hover{
+    left:-10px;
+}
+/*----------------------------activity--------------------------------*/
+#activityBack{
+    background: #fff;
+    overflow: hidden;
+}
+#activity{
+    height: 200px;
+    overflow: hidden;
+    margin: 25px auto;
+    position: relative;
+}
+#activity .activity-left .left-item01{
+    display: none;
+    height: 200px;
+    overflow: hidden;
+    background:orange;
+    position: absolute;
+    top: 0;
+}
+#activity .activity-left .left-item02{
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    background:#ff0000;
+    position: absolute;
+    top: 0;
+}
+#activity .activity-left{
+    width: 228px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+#activity .activity-left{
+    width: 228px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+#activity .activity-left h2 a{
+    color: #fff;
+}
+#activity .activity-left div{
+    height:100px;
+    width: 228px;
+}
+#activity .activity-left>div div+div{
+    border-top: 1px dashed #fff;
+}
+#activity .activity-left span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+#activity .activity-left h2{
+    line-height: 40px;
+    color: #fff;
+    text-indent: 8px;
+    font-size:12px;
+}
+#activity .activity-left b{
+    display: inline-block;
+    width: 36px;
+    height: 40px;
+    vertical-align: middle;
+    margin: 0 20px 0 50px;
+}
+#activity .activity-left .left-pos01{
+    background: url(../images/index01.png);
+}
+#activity .activity-left .left-pos02{
+    background: url(../images/index01.png)  -37px 0;
+}
+#activity .activity-left .left-pos03{
+    background: url(../images/index01.png)  0 -41px;
+}
+#activity .activity-left .left-pos04{
+    background: url(../images/index01.png)  -37px -41px;
+}
+
+#activity .activity-right{
+    width: 968px;
+    height: 200px;
+    float: right;
+    background: #f5f5f5;
+}
+#activity .activity-right .act-top{
+    vertical-align: middle;
+    line-height: 56px;
+    color: #333;
+    padding: 0 25px;
+}
+#activity .activity-right .act-top img{
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+    border: none;
+    line-height: 56px;
+    color: #333;
+}
+#activity .activity-right .act-top a{
+     display: inline-block;
+     height: 28px;
+     line-height: 28px;
+     padding: 0 7px;
+     background: #fa7d67;
+     color: #fff;
+     border-radius: 4px;
+     margin-left: 5px;
+ }
+#activity .activity-right .act-top span{
+    float: right;
+    font-size: 14px;
+    line-height: 56px;
+    color: #333;
+}
+#activity .activity-right .act-top span em{
+    font-size: 19px;
+    color: #fa7d67;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+#activity .activity-right .act-dwon>p{
+    width: 68px;
+    float: left;
+    padding-left: 38px;
+    text-align: center;
+    color: #666;
+}
+#activity .activity-right .act-dwon>p .act-bg{
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background: url(../images/index04.png) 0 -115px;
+    margin-bottom: 15px;
+    color: #444;
+    text-align: center;
+}
+#activity .activity-right .act-dwon>p .act-pd{
+    display: inline-block;
+    width: 58px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    background: #fa7d67;
+}
+#activity .activity-right .act-dwon>ul{
+     padding-left: 15px;
+     height: 103px;
+     overflow: hidden;
+     width: 840px;
+    float: right;
+}
+#activity .activity-right .act-dwon>ul li{
+    width: 80px;
+    float: left;
+    text-align: center;
+    color: #666;
+    margin: 0 20px;
+}
+#activity .activity-right .act-dwon>ul li img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border:none;
+}
+#activity .activity-right .act-dwon>ul li a{
+    color: #666;
+}
+/*---------------------------shopping-------------------------------*/
+#shoppingBack{
+    overflow: hidden;
+    background:#f5f5f5;
+}
+#shopping{
+    padding: 30px 0 55px;
+}
+/*--------------------------surprise------------------------------*/
+#surpriseBack{
+    overflow: hidden;
+    background: #f5f5f5;
+    padding-bottom: 30px;
+}
+#surpriseTit{
+    height:75px;
+}
+#surpriseTit>div{
+    width: 120px;
+    height: 34px;
+    margin-top: 30px;
+    float: left;
+}
+#surpriseTit ul{
+    border-bottom: 1px solid #e1e0e0;
+    padding-bottom: 21px;
+    padding-left: 50px;
+    width: 1022px;
+    float: right;
+}
+#surpriseTit ul li{
+    position: relative;
+    width: 140px;
+    color: #999;
+    font-size:14px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+#surpriseTit ul li.active span{
+    color: #fff;
+    height:20px;
+    line-height:26px;
+    font-weight: bold;
+    background: #fe5400;
+    border-radius: 5px;
+    padding:3px 20px;
+
+}
+#surpriseTit ul li em{
+    display: block;
+    position: absolute;
+    bottom: -42px;
+    left: 0;
+    width: 100%;
+    background: url(../images/index02.png) no-repeat 42px -227px;
+    height: 24px;
+    text-align: center;
+    font-style: normal;
+}
+#surpriseTit ul li.active i{
+    bottom: -12px;
+    left: 65px;
+    border-style: solid solid dotted solid;
+    border-color: #fe5400 transparent transparent transparent;
+    position: absolute;
+    border-width: 7px;
+    z-index: 1;
+}
+#surpriseTit ul li.active em{
+    background: url(../images/index02.png) no-repeat 37px -263px;
+    bottom: -52px;
+    height: 62px;
+}
+#surpriseCon{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    background: #fff;
+    margin-top: 10px;
+}
+#surpriseCon .surprise-lunbo{
+    height: 380px;
+    width: 222px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+#surpriseCon .surprise-list{
+    width: 972px;
+    height: 380px;
+    overflow: hidden;
+    float: right;
+}
+#surpriseCon .surprise-list li{
+    float: left;
+    width: 242px;
+    height: 375px;
+    padding-top: 5px;
+}
+#surpriseCon .surprise-list ul>li+li{
+    border-left: 1px solid #eee;
+
+}
+#surpriseCon .surprise-list li .list-pic{
+    padding: 25px;
+}
+#surpriseCon .surprise-list li .list-pic>a{
+    width: 193px;
+    height: 193px;
+    display: block;
+    overflow: hidden;
+}
+#surpriseCon .surprise-list li .list-pic>a img{
+    width: 193px;
+    height: 193px;
+    transition: All 0.6s ease-in-out;
+}
+#surpriseCon .surprise-list li .list-pic>a:hover img{
+      width: 200px;
+      height: 200px;
+}
+#surpriseCon .surprise-list li .list-pic h2{
+    height: 36px;
+    margin-top: 10px;
+    font:12px/18px "微软雅黑";
+    overflow: hidden;
+}
+#surpriseCon .surprise-list li .list-pic h2 a{
+    color: #333;
+}
+#surpriseCon .surprise-list li .list-pic h2 a:hover{
+    color: blue;
+}
+#surpriseCon .surprise-list li .list-pic>a:hover img{
+     width: 200px;
+     height: 200px;
+}
+#surpriseCon .surprise-list li .list-price{
+    margin:5px 0 0 25px;
+}
+#surpriseCon .surprise-list li .list-price>div{
+    width: 115px;
+    float: left;
+}
+#surpriseCon .surprise-list li .list-price>div div{
+    color: #ff4400;
+    font-size: 22px;
+    font-weight:bold;
+}
+#surpriseCon .surprise-list li .list-price>div div em{
+    font-size: 14px;
+}
+#surpriseCon .surprise-list li .list-price>div p{
+    color: #999;
+}
+#surpriseCon .surprise-list li .list-price>div p span{
+    margin-left: 10px;
+}
+#surpriseCon .surprise-list li .list-price>p{
+    float: right;
+}
+#surpriseCon .surprise-list li .list-price>p a{
+    width: 68px;
+    padding-left: 20px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    background: url(../images/index02.png) no-repeat -4px -8px;
+    transition: All 0.4s ease-in-out;
+    display: block;
+    text-align: center;
+}
+#surpriseCon .surprise-list li .list-price>p a:hover{
+    width: 73px;
+}
+#surpriseCon .surprise-list li .list-price>p{
+    color: #999;
+}
+
+#boutiqueBack{
+    background: #f5f5f5;
+    overflow: hidden;
+}
+#boutique{
+    margin-bottom: 30px;
+}
+#boutique h2{
+    line-height: 36px;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+#boutique ul li{
+    border: 1px solid #eee;
+    margin: 0 18px 20px 0;
+    background: #fff;
+    width: 530px;
+    padding: 25px;
+    overflow: hidden;
+    float: left;
+}
+#boutique ul li .tj-lelf{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+}
+#boutique ul li .tj-lelf a{
+    color: #444;
+}
+#boutique ul li .tj-lelf a img{
+    width: 190px;
+    height: 190px;
+    transition: All 0.6s ease-in-out;
+}
+#boutique ul li .tj-lelf a img:hover{
+    width: 200px;
+    height: 200px;
+}
+#boutique ul li{
+     border: 1px solid #eee;
+     margin: 0 18px 20px 0;
+}
+#boutique ul li{
+      border: 1px solid #eee;
+      margin: 0 18px 20px 0;
+}
+#boutique ul li .tj-right{
+    width: 300px;
+    padding-left: 30px;
+    float: left;
+}
+#boutique ul li .tj-right h3{
+    height: 34px;
+    color: #666;
+    line-height: 34px;
+    overflow: hidden;
+    font-size: 14px;
+    border-bottom: 1px solid #dad8d8;
+}
+#boutique ul li .tj-right h3 a{
+    color: #666;
+}
+#boutique ul li .tj-right>div{
+    padding: 3px 0 3px 56px;
+    position: relative;
+    line-height: 22px;
+    margin-top: 20px;
+}
+#boutique ul li .tj-right>div b{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 50px;
+    background: url(../images/index05.png) no-repeat 0 -210px;
+    display: inline-block;
+}
+#boutique ul li .tj-right>div em{
+    color: #f40;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22px;
+}
+#boutique ul li .tj-right>div span{
+    display: block;
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+}
+#boutique ul li .tj-right>p{
+    padding-top: 28px;
+    text-indent: 2em;
+    height: 100px;
+    text-align: justify;
+    line-height: 20px;
+    color: #999;
+}
+/*----foodsFsBack----------------------------*/
+#foodsFsBack{
+    background: #F5F5F5;
+    overflow: hidden;
+}
+#foodsFs{
+    border: 1px solid #eee;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 30px;
+}
+#foodsFs h2{
+    height: 60px;
+    font-weight:normal;
+    line-height: 60px;
+    padding-left: 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+#foodsFs h2>img{
+    vertical-align: middle;
+    margin-top: 13px;
+    float: left;
+    border: none;
+}
+#foodsFs h2>em{
+    color: #459d36;
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    float: left;
+    font-size: 20px;
+}
+#foodsFs h2>span{
+    height: 26px;
+    font-size: 12px;
+    margin-top: 22px;
+    line-height: 26px;
+    display: block;
+    float: right;
+}
+#foodsFs h2>span a{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 18px;
+    outline: none;
+    color: #444;
+    line-height: 26px;
+    border-right: 1px dashed #eee;
+}
+#foodsFs h2>span>a img{
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: none;
+}
+
+#foodsFs .foodsFsL{
+    width: 250px;
+    height: 480px;
+    float: left;
+}
+#foodsFs .foodsFsL a{
+    color: #248DCC;
+    display: block;
+    overflow: hidden;
+}
+
+#foodsFs .foodsFsR{
+    width: 947px;
+    height: 480px;
+    padding-left: 3px;
+    overflow: hidden;
+    float: left;
+}
+#foodsFs .foodsFsR li{
+    display: inline-block;
+    width: 200px;
+    float: left;
+    margin: 16px 18px 0;
+}
+#foodsFs .foodsFsR li>a{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 6px;
+    outline: none;
+    color: #444;
+    overflow: hidden;
+    display: block;
+}
+#foodsFs .foodsFsR li>a img{
+    width:145px;
+    height:145px;
+    transition: all 0.6s ease-in-out;
+}
+#foodsFs .foodsFsR li>a img:hover{
+    width:155px;
+    height:155px;
+}
+#foodsFs .foodsFsR li h3{
+    line-height: 18px;
+    height: 36px;
+    color: #666;
+    overflow: hidden;
+    margin-bottom: 6px;
+    text-align: center;
+    font-weight:normal;
+}
+#foodsFs .foodsFsR li>p{
+    color: #f40;
+    text-align: center;
+    font-size: 14px;
+}
+

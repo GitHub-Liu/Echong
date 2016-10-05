@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>京东登录页面</title>
+		<link rel="stylesheet" href="../css/denglu.css" />
+	</head>
+	<body>
+	<!--头部-->
+    <div class="header">
+        <a class="logo" href="#"></a>
+        <div class="desc">欢迎登录</div>
+        <div class="zhuce">没有账号 <a href="index.html">请注册</a></div>
+    </div>
+	<div id="main">
+		<div class="project">
+			<ul class="way">
+				<li><a>扫码登录</a></li>
+				<li><a>账户登录</a></li>
+			</ul>
+			<div class="prompt" id="tip">
+				公共场所不建议自动登录，以防账号丢失
+			</div>
+			<!--用户名-->
+			<div class="box">
+				<label for ="userName"></label>
+				<input class="txt" type="text" id="userName" placeholder="邮箱/用户名/已验证手机"/>
+			</div>
+			<!--验证密码-->
+			<div class="box">
+				<label for ="pwd"></label>
+				<input class="txt" type="text" id="pwd" placeholder="您的账户密码" />
+			</div>
+			<!--验证自动登录-->
+    		<div class="treaty">
+    			<input type="checkbox" id="ck"/>自动登录<a href="#">忘记密码</a>
+    		</div>
+    		<!--验证登录-->
+    		<button class="btn" id="btn">登 录</button>
+    		<div class="link">
+    			<p><a>京东钱包</a></p>
+    			<p><a>QQ</a></p>
+    			<p><a>微信</a></p>
+    			<span class="zhece"><a href="index.html">立即注册</a></span>
+    		</div>
+		</div>
+	</div>
+	<!--连接denglu.js文件操作-->
+	<script type="text/javascript" src="../js/denglu.js" ></script>
+	<!--连接coolie.js-->
+	<script type="text/javascript" src="../js/cookie.js" ></script>
+	</body>
+</html>

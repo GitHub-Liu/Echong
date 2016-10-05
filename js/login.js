@@ -1,0 +1,10 @@
+$(function(){
+    $(".login-yzm01").hide();
+    $(".way01").addClass("active");
+    $.each($(".login-ways>li"),function(i,o){
+        $(this).click(function(){
+            $(".login-ways>li").removeClass("active");
+            $(this).addClass("active");
+        });
+    });
+});

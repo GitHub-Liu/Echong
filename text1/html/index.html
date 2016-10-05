@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" href="../css/index.css" />
+	</head>
+	<body>
+	<div class="header">
+        <a class="logo" href="#"></a>
+        <div class="desc">欢迎注册</div>
+        <div class="denglu">已有账号 <a href="denglu.html">请登录</a></div>
+    </div>
+	<div class="main">
+		<div class="title">
+			<div class="top">
+				<p>注意<span style="color: red;">*</span>为必填</p>
+				<h2>账户详细资料</h2>
+			</div>
+			<input class="txt hide" id="txt" type="text" />
+		</div>
+			<!--用户名-->
+			<div class="box">
+				<label for ="userName">用户名称<span>*</span></label>
+				<input class="txt1" type="text" id="userName" placeholder="您的用户名" />
+			</div>
+			<!--验证密码-->
+			<div class="box">
+				<label for ="pwd">登陆密码<span>*</span></label>
+				<input class="txt1" type="text" id="pwd" placeholder="您的账户密码" />
+			</div>
+			<!--确定密码-->
+			<div class="box">
+				<label for ="pwd2">重复登陆密码<span>*</span></label>
+				<input class="txt1" type="text" id="pwd2" placeholder="再次输入您的账户密码" />
+			</div>
+			<!--密码级别-->
+			<div class="box">
+				<label for =" level">密码安全级别<span>*</span></label>
+				<div class="tip-ruo" id="ruo"></div>
+				<div class="tip-zhong" id="zhong"></div>
+				<div class="tip-qiang" id="qiang"></div>
+			</div>
+			<h2 class="h2_2">个人信息资料</h2>
+			<div class="box">
+				<label for ="email">电子邮件<span>*</span></label>
+				<input class="txt1" type="text" id="email" placeholder="您的电子邮箱" />
+			</div>
+			<!--真实姓名-->
+			<div class="box">
+				<label for ="Name">真实姓名<span>*</span></label>
+				<input class="txt1" type="text" id="Name" placeholder="您的真实姓名" />
+			</div>
+			<!--手机号-->
+			<div class="box">
+				<label for ="mobile">中奖通知手机<span>*</span></label>
+				<input class="txt1" type="text" id="mobile" placeholder="您的手机号" />
+			</div>
+			<!--验证码-->
+			<div class="box yzm">
+				<label for ="code">验证码<span>*</span></label>
+				<input class="txt1" type="text" id="code" placeholder="输入验证码"/>
+				<a href="javascript:;" id="updateCode">abc1</a>
+    			<input type="hidden" id="code2" value="abc1"/>
+			</div>
+			<!--注册验证-->
+			<div class="box btn">
+				<button class="btn" id="btn">注册</button>
+				<input type="checkbox" id="ck" /><span>10天内免登陆</span>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/index.js" ></script>
+	<script type="text/javascript" src="../js/regExpManger.js" ></script>
+	<script type="text/javascript" src="../js/cookie.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车页面</title>
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" href="../css/cart.css" type="text/css">
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/strOper.js"></script>
+</head>
+<!-----------------------headerBack---------------------------->
+<div id="headerBack"></div>
+<div id="containerBack">
+    <div id="cartSearch">
+        <div class="search-logo">
+            <a href="index.html" title="E宠网">
+                <img src="../images/cart01.png">
+            </a>
+        </div>
+        <div class="search-tit">购物车</div>
+        <div class="search-box">
+            <input class="search-text" value="" type="text">
+            <button class="search-btn">搜索</button>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="cartMenu">
+        <ul>
+            <li>购物车<em>1</em></li>
+            <li>我的收藏<em>?</em></li>
+            <li>我购买过<em>?</em></li>
+            <li>最近浏览<em>10</em></li>
+        </ul>
+        <div>
+            <div>
+                <i></i>
+            </div>
+        </div>
+    </div>
+    <div id="cartContent">
+        <!--购物车为空 BEGIN-->
+        <div class="cartItem01">
+            <div>
+                <h2>您购物车空空的，快去选购吧！</h2>
+                <div>
+                    <a href="#"><span>一键购买</span></a>
+                    <a href="index.html"><span>去首页</span></a>
+                </div>
+            </div>
+        </div>
+        <!--购物车为空 END-->
+        <!--购物车 BEGIN-->
+        <div class="cartItem02">
+            <div class="cart-tit">
+                <label><input checked="checked" type="checkbox"></label>
+                <span>西部大仓</span>
+                <b>
+                    <img src="../images/cart01.jpg">
+                    <div>
+                        <em></em>
+                        <i></i>
+                        <p>以下商品由重庆仓发货，支持余额支付、货到付款、在线支付，全国满99包邮，部分地区满38包邮。</p>
+                    </div>
+                </b>
+                <div><span>未包邮</span> 订单满38元包邮，还差 26.10 元（顺丰、EMS不包邮）<a href="">去凑单&gt;&gt;</a></div>
+            </div>
+            <ul class="cart-list">
+                <!--<li>
+                    <div class="cart-sel">
+                        <input checked="checked" type="checkbox"/>
+                    </div>
+                    <div class="cart-goods">
+                        <div class="goods-pic">
+                            <a href="#">
+                                <img src="../images/cart02.jpg">
+                            </a>
+                        </div>
+                        <div class="goods-act">
+                            <a href="#"><em>(折扣)</em>美国8in1 顶歌 夹肉洁齿骨 小号1支装 35g  小号 </a>
+                        </div>
+                    </div>
+                    <div class="cart-count">
+                        <div>
+                            <p>-</p>
+                            <input value="1" type="text">
+                            <p>+</p>
+                        </div>
+                        <p>有货</p>
+                    </div>
+                    <div class="cart-price">
+                        ￥19.60
+                    </div>
+                    <div class="cart-cz">
+                        <a href="#">[收藏]</a>
+                        <a href="#">[删除]</a>
+                    </div>
+                </li>-->
+            </ul>
+            <div class="cart-js">
+                <p>
+                    <input  checked="checked" type="checkbox">全选
+                    <a href="#">[ 删除选中商品 ]</a>
+                    <a href="#">[ 收藏选中商品 ]</a>
+                </p>
+                <div>
+                    关税总额：<del>￥35.98</del>
+                    <b><img src="../images/cart01.jpg">
+                        <div>
+                            <em></em>
+                            <i></i>
+                            <p>卖家已减免￥35.98关税。</p>
+                        </div>
+                    </b>
+                    总价（不含运费）:<strong>￥415.10</strong>
+                    <a href="">去结算(3)</a>
+                </div>
+            </div>
+            </td>
+        </div>
+        <!--购物车 END-->
+    </div>
+    <div id="cartGoods">
+        <ul></ul>
+    </div>
+</div>
+<!----------------------bottomBack----------------------------->
+<div id="footerBack"></div>
+<!----------------------bottomBack----------------------------->
+<div id="bottomBack"></div>
+<!---------------------carShoppingBack---------------------------->
+<div id="carShoppingBack"></div>
+<body>
+<script src="../js/cart.js"></script>
+</body>
+</html>

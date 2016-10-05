@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*常用标签的样式重置*/
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border:none;
+    border-radius: 4px;    //圆角
+}
+/*设定html和body的宽度为100%*/
+html,body{
+    width:100%;
+    font-size: 14px;
+}
+/*头部*/
+.header{
+    width:100%;
+    height: 90px;
+    box-shadow: 0px 10px 10px rgba(111,111,111,.5);
+    position: relative;
+
+}
+/*Logo*/
+.header .logo{
+    display: inline-block;
+    width: 160px;
+    height:50px;
+    background: url("../images/icon.png") no-repeat;
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+.header .desc{
+    font-size: 18px;
+    line-height: 34px;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    left: 200px;
+    top:28px;
+    padding-left: 20px;
+    font-weight:bold;
+}
+.header .denglu{
+    font-size: 18px;
+    line-height: 34px;
+    position: absolute;
+    right: 20px;
+    top:28px;
+    font-weight:bold;
+}
+/*整体*/
+.main{
+    width:620px;
+    height: 570px;
+    margin:0 auto;
+    margin-top:20px;
+    background: #333;
+}  
+/*头部*/
+.title{
+    width:700px;
+    height: 80px;
+}
+.top{
+    width:200px;
+    height: 70px;
+    float: left;
+}
+.top p{
+	width: 200px;
+	height: 40px;
+	color: gold;
+	line-height: 30px;
+	text-indent: 40px;
+}
+h2{
+	width: 250px;
+	height: 40px;
+	font-size: 18px;
+	color: #0a99cc;
+	line-height: 40px;
+	text-indent: 80px;
+}
+h2.h2_2{
+	margin: 10px 0;
+}
+.txt{
+    width:232px;
+    margin:25px 0 0 80px;
+    height: 30px;
+    float: left;
+    color:#000;
+    background:#ffffcc;
+    text-align: center;
+}
+.txt.hide{
+    display: none;
+}
+.box{
+	width:550px;
+	height:22px;
+	padding:10px 0;
+	font:14px/20px "宋体";
+	margin-left: 100px;
+}
+.box label{
+	width:150px;
+	height:22px;
+	line-height: 22px;
+	padding:0 10px;
+	color: #ccc;
+	display: block;
+	float:left;	
+}
+.box .txt1{
+	width:250px;
+	height:22px;
+	line-height: 22px;
+	border: 1px solid #ccc;
+	float:left;
+	background:#999 ;
+	color: #fff;
+}
+.box label span{
+	color:red;
+	float: right;
+	padding-top:6px;
+	display: block;
+}
+
+.tip-ruo,.tip-zhong,.tip-qiang{
+	width: 60px;
+	height: 22px;
+	background:#e4e4e4 ;
+	float: left;
+	border: 1px solid #ccc;	
+}
+
+.tip-ruo.active{
+	background:red ;
+}
+.tip-zhong.active{
+	background:orange ;
+}
+.tip-qiang.active{
+	background:green ;
+}
+.box.yzm .txt1{
+	width:80px;
+	float: left;
+	margin-right: 20px;
+}
+.box.yzm a{
+	width: 80px;
+	height: 22px;
+	font:bold 20px/22px "宋体";
+	border: 1px solid #ccc;
+	background: #fff;
+	float: left;
+	text-align: center;
+	color: #000;
+}
+
+.box.btn .btn{
+	width: 120px;
+	height: 40px;
+	margin:10px 20px 0 150px ;
+	background: #2c67b5;
+	border-radius: 8px;
+	float: left;
+}
+.box.btn input{
+	color: #fff;
+	margin-top: 22px;
+	line-height: 14px;
+	float: left;
+}
+.box.btn span{
+	color: #fff;
+	padding-top: 22px;
+	line-height: 14px;
+	float: left;
+}
+
+
+
+

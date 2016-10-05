@@ -1,0 +1,273 @@
+/*--重置样式--*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+    margin:0; padding:0;
+}
+img{
+    border:none;
+}
+ul,li{
+    list-style:none;
+}
+input{
+    border:none;
+    outline: none;
+}
+body{
+    font-family:"微软雅黑","Arial";
+    font-size: 12px;
+}
+a{
+    text-decoration:none;
+}
+/*------------公共样式----------------*/
+#header,#container,#footer{
+    width:1100px;
+    margin:0 auto;
+}
+/*------------------------header--------------------------*/
+#headerBack{
+	border-bottom: 1px solid #ddd;
+	height: 120px;
+}
+#header{
+	padding: 30px 0;
+	height: 60px;
+	
+}
+#header .header-logo{
+	float: left;
+}
+#header .header-link{
+	margin: 13px 5px 0 0;
+	float: right;
+}
+#header .header-link span{
+	font: 14px/16px "宋体";
+	color: #666;
+}
+#header .header-link a{
+	font:bold 16px/16px "宋体";
+	color: blue;
+}
+/*------------------------container--------------------------*/
+#containerBack{
+   border-bottom: 1px solid #ddd;
+}
+#container{
+    margin: 0 auto;
+    padding-top: 55px;
+}
+#container a{
+    color: #000;
+}
+#container .container-register{
+    width: 516px;
+	margin: 0 auto;
+}
+#container .container-register>div>span{
+	margin-right: 4px;
+	width:96px;
+	font-size: 16px;
+	text-align: right;
+	line-height: 54px;
+	display: block;
+	float: left;
+}
+#container .container-register>div{
+    position: relative;
+    margin-bottom: 10px;
+    height: 54px;   
+}
+#container .container-register .register-phone>input{
+	 border: 1px solid #ddd;
+	 height: 52px;
+	 border-radius: 5px;
+	 width: 413px;
+	 color: #999;
+	 text-indent: 16px;
+	 font-size: 14px;
+	 float: left;
+}
+#container .container-register .check-ok{
+	position: absolute;
+	right: -30px;
+	top: 15px;
+	display: none;
+	float: left;
+}
+#container .container-register .check-tip{
+	width: 150px;
+	display: none;
+	font-size: 14px;
+	position: absolute;
+	left: 520px;
+	top: 0;
+	padding: 0 10px;
+	height: 54px;
+	line-height: 54px;
+	background: #fff3d9;
+	color: #ff6f4a;
+	float: left;
+}
+#container .container-register .register-yzm01>input{
+	border: 1px solid #ddd;
+	margin-right: 9px;
+	height: 52px;
+	border-radius: 5px;
+	width: 203px;
+	color: #999;
+	text-indent: 16px;
+	font-size: 14px;
+	float: left;
+}
+#container .container-register input.active{
+	border: 1px solid red;
+}
+#container .container-register .register-yzm01 .yzm01-get{
+	 position: relative;
+	 width: 200px;
+	 border: 1px solid #ddd;
+	 border-radius: 5px;
+	 height: 52px;
+	 line-height: 52px;
+	 float: left;
+ }
+#container .container-register .register-yzm01 .yzm01-get>div{
+	 width: 103px;
+	 height: 52px;
+	 line-height: 52px;
+	 float: left;
+}
+#container .container-register .register-yzm01 .yzm01-get>div>img{
+	width: 102px;
+	height: 52px;
+}
+#container .container-register .register-yzm01 .yzm01-get>a{
+	width: 88px;
+	color: #999;
+	text-align: center;
+	border-radius: 0 10px 10px 0;
+	border-left:1px solid #ddd ;
+	line-height: 52px;
+	position: absolute;
+	right: 9px;
+	float: left;
+}
+#container .container-register .register-yzm01 .yzm01-get>a img.active{
+	 transform: rotate(360deg);
+	 -webkit-transform: rotate(360deg);
+	 transition: all .6s;
+}
+
+#container .container-register .register-yzm02>input{
+	border: 1px solid #ddd;
+	margin-right: 9px;
+	height: 52px;
+	border-radius: 5px;
+	width: 253px;
+	color: #999;
+	text-indent: 16px;
+	font-size: 14px;
+	float: left;
+}
+#container .container-register .register-yzm02>a{
+	width: 149px;
+	height: 52px;
+	border-radius: 5px;
+	line-height: 52px;
+	border:1px solid #33cb98 ;
+	float: left;
+	text-align: center;
+	color: #999;
+}
+#container .container-register .register-yzm02>a:hover{
+	background:#33cb98;
+	color: #fff;
+}
+
+#container .container-register .register-uname>input{
+	border: 1px solid #ddd;
+	height: 52px;
+	border-radius: 5px;
+	width: 413px;
+	color: #999;
+	text-indent: 16px;
+	font-size: 14px;
+}
+#container .container-register .register-pwd01>input{
+	border: 1px solid #ddd;
+	height: 52px;
+	border-radius: 5px;
+	width: 413px;
+	color: #999;
+	text-indent: 16px;
+	font-size: 14px;
+}
+#container .container-register .pwd01-leval{
+	padding-left: 100px;
+	margin-bottom: 10px;
+	height: 20px;
+	width: 416px;
+	color: #999;
+}
+#container .container-register .pwd01-leval>span{
+	width: 80px;
+	height: 20px;
+	background: #eee;
+	margin-right: 2px;
+	line-height: 20px;
+	float: left;
+	text-align: center;
+}
+#container .container-register .pwd01-leval>span.active{
+	background: orange;
+}
+#container .container-register .register-pwd02>input{
+	border: 1px solid #ddd;
+	height: 52px;
+	border-radius: 5px;
+	width: 413px;
+	color: #999;
+	text-indent: 16px;
+	font-size: 14px;
+}
+#container .container-register .register-check{
+	padding-left: 100px;
+	margin-bottom: 10px;
+	height: 20px;
+	width: 416px;
+	color: #999;
+}
+#container .container-register .register-check span{
+	width: 233px;
+	height: 20px;
+	margin-right: 2px;
+	line-height: 20px;
+	float: left;
+}
+#container .container-register .register-check input{
+	float: left;
+	margin: 5px 8px;
+	line-height: 20px;
+}
+#container .container-register .register-check span a{
+	color: blue;
+}
+#container .container-register button{
+	border: none;
+	border-radius: 5px;
+	background: #33cb98;
+	width: 416px;
+	height: 52px;
+	line-height: 52px;
+	margin: 15px 0 50px 100px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+}
+#container .container-register input.error{
+	border: 1px solid red;
+}

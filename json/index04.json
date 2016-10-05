@@ -1,0 +1,106 @@
+[{"himg":"../images/fs001.png","hem":"狗狗主粮","dimg":"../images/fs005.jpg",
+        "item01":[  {"spimg":"../images/fs001.jpg","spa":"进口狗粮"},
+                    {"spimg":"../images/fs002.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs003.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs004.jpg","spa":"处方狗粮"}
+        ],
+        "item02":[  {"utit":"百利品牌钜惠-买粮赠罐头","uimg":"../images/fs006.jpg","uprice":"￥213.00"},
+                    {"utit":"奥运宝最高1送4","uimg":"../images/fs007.jpg","uprice":"￥213.00"},
+                    {"utit":"“巅峰”盛宴，限量回馈","uimg":"../images/fs008.jpg","uprice":"￥213.00"},
+                    {"utit":"袋鼠肉专场-减脂增肌,折后送60元","uimg":"../images/fs009.jpg","uprice":"￥213.00"},
+                    {"utit":"比瑞吉满400最高送100","uimg":"../images/fs010.jpg","uprice":"￥213.00"},
+                    {"utit":"安娜玛特大牌精选","uimg":"../images/fs011.jpg","uprice":"￥213.00"},
+                    {"utit":"冠军犬的御用粮-佰芙","uimg":"../images/fs012.jpg","uprice":"￥213.00"},
+                    {"utit":"超值折扣4折起","uimg":"../images/fs013.jpg","uprice":"￥213.00"}
+        ]
+   },
+  {"himg":"../images/fs002.png","hem":"狗狗零食","dimg":"../images/fs019.jpg",
+        "item01":[  {"spimg":"../images/fs014.jpg","spa":"进口狗粮"},
+                    {"spimg":"../images/fs015.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs016.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs017.jpg","spa":"处方狗粮"},
+                    {"spimg":"../images/fs018.jpg","spa":"处方狗粮"}
+        ],
+        "item02":[  {"utit":"百利品牌钜惠-买粮赠罐头","uimg":"../images/fs020.jpg","uprice":"￥213.00"},
+                    {"utit":"奥运宝最高1送4","uimg":"../images/fs021.jpg","uprice":"￥213.00"},
+                    {"utit":"“巅峰”盛宴，限量回馈","uimg":"../images/fs022.jpg","uprice":"￥213.00"},
+                    {"utit":"袋鼠肉专场-减脂增肌,折后送60元","uimg":"../images/fs023.jpg","uprice":"￥213.00"},
+                    {"utit":"比瑞吉满400最高送100","uimg":"../images/fs024.jpg","uprice":"￥213.00"},
+                    {"utit":"安娜玛特大牌精选","uimg":"../images/fs025.jpg","uprice":"￥213.00"},
+                    {"utit":"冠军犬的御用粮-佰芙","uimg":"../images/fs026.jpg","uprice":"￥213.00"},
+                    {"utit":"超值折扣4折起","uimg":"../images/fs027.jpg","uprice":"￥213.00"}
+        ]
+  },
+  {"himg":"../images/fs003.png","hem":"狗狗保健&医疗","dimg":"../images/fs034.jpg",
+        "item01":[  {"spimg":"../images/fs028.jpg","spa":"进口狗粮"},
+                    {"spimg":"../images/fs029.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs030.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs031.jpg","spa":"处方狗粮"},
+                    {"spimg":"../images/fs032.jpg","spa":"处方狗粮"},
+                    {"spimg":"../images/fs033.jpg","spa":"处方狗粮"}
+        ],
+        "item02":[  {"utit":"百利品牌钜惠-买粮赠罐头","uimg":"../images/fs035.jpg","uprice":"￥213.00"},
+                  {"utit":"奥运宝最高1送4","uimg":"../images/fs036.jpg","uprice":"￥213.00"},
+                  {"utit":"“巅峰”盛宴，限量回馈","uimg":"../images/fs037.jpg","uprice":"￥213.00"},
+                  {"utit":"袋鼠肉专场-减脂增肌,折后送60元","uimg":"../images/fs038.jpg","uprice":"￥213.00"},
+                  {"utit":"比瑞吉满400最高送100","uimg":"../images/fs039.jpg","uprice":"￥213.00"},
+                  {"utit":"安娜玛特大牌精选","uimg":"../images/fs040.jpg","uprice":"￥213.00"},
+                  {"utit":"冠军犬的御用粮-佰芙","uimg":"../images/fs041.jpg","uprice":"￥213.00"},
+                  {"utit":"超值折扣4折起","uimg":"../images/fs042.jpg","uprice":"￥213.00"}
+        ]
+  },
+  {"himg":"../images/fs004.png","hem":"狗狗日用","dimg":"../images/fs050.jpg",
+        "item01":[  {"spimg":"../images/fs043.jpg","spa":"进口狗粮"},
+                    {"spimg":"../images/fs045.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs046.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs047.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs048.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs049.jpg","spa":"处方狗粮"}
+        ],
+        "item02":[  {"utit":"百利品牌钜惠-买粮赠罐头","uimg":"../images/fs051.jpg","uprice":"￥213.00"},
+                    {"utit":"奥运宝最高1送4","uimg":"../images/fs052.jpg","uprice":"￥213.00"},
+                    {"utit":"“巅峰”盛宴，限量回馈","uimg":"../images/fs053.jpg","uprice":"￥213.00"},
+                    {"utit":"袋鼠肉专场-减脂增肌,折后送60元","uimg":"../images/fs054.jpg","uprice":"￥213.00"},
+                    {"utit":"比瑞吉满400最高送100","uimg":"../images/fs055.jpg","uprice":"￥213.00"},
+                    {"utit":"安娜玛特大牌精选","uimg":"../images/fs056.jpg","uprice":"￥213.00"},
+                    {"utit":"冠军犬的御用粮-佰芙","uimg":"../images/fs057.jpg","uprice":"￥213.00"},
+                    {"utit":"超值折扣4折起","uimg":"../images/fs058.jpg","uprice":"￥213.00"}
+        ]
+  },
+  {"himg":"../images/fs005.png","hem":"狗狗香波&美容","dimg":"../images/fs065.jpg",
+        "item01":[  {"spimg":"../images/fs059.jpg","spa":"进口狗粮"},
+                    {"spimg":"../images/fs060.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs061.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs062.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs063.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs064.jpg","spa":"处方狗粮"}
+        ],
+        "item02":[  {"utit":"百利品牌钜惠-买粮赠罐头","uimg":"../images/fs066.jpg","uprice":"￥213.00"},
+                    {"utit":"奥运宝最高1送4","uimg":"../images/fs067.jpg","uprice":"￥213.00"},
+                    {"utit":"“巅峰”盛宴，限量回馈","uimg":"../images/fs068.jpg","uprice":"￥213.00"},
+                    {"utit":"袋鼠肉专场-减脂增肌,折后送60元","uimg":"../images/fs069.jpg","uprice":"￥213.00"},
+                    {"utit":"比瑞吉满400最高送100","uimg":"../images/fs070.jpg","uprice":"￥213.00"},
+                    {"utit":"安娜玛特大牌精选","uimg":"../images/fs071.jpg","uprice":"￥213.00"},
+                    {"utit":"冠军犬的御用粮-佰芙","uimg":"../images/fs072.jpg","uprice":"￥213.00"},
+                    {"utit":"超值折扣4折起","uimg":"../images/fs073.jpg","uprice":"￥213.00"}
+        ]
+  },
+  {"himg":"../images/fs006.png","hem":"狗狗牵引&服饰&玩具","dimg":"../images/fs080.jpg",
+        "item01":[  {"spimg":"../images/fs074.jpg","spa":"进口狗粮"},
+                    {"spimg":"../images/fs075.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs076.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs077.jpg","spa":"国产狗粮"},
+                    {"spimg":"../images/fs078.jpg","spa":"散装狗粮"},
+                    {"spimg":"../images/fs079.jpg","spa":"处方狗粮"}
+        ],
+        "item02":[  {"utit":"百利品牌钜惠-买粮赠罐头","uimg":"../images/fs081.jpg","uprice":"￥213.00"},
+                    {"utit":"奥运宝最高1送4","uimg":"../images/fs082.jpg","uprice":"￥213.00"},
+                    {"utit":"“巅峰”盛宴，限量回馈","uimg":"../images/fs083.jpg","uprice":"￥213.00"},
+                    {"utit":"袋鼠肉专场-减脂增肌,折后送60元","uimg":"../images/fs084.jpg","uprice":"￥213.00"},
+                    {"utit":"比瑞吉满400最高送100","uimg":"../images/fs085.jpg","uprice":"￥213.00"},
+                    {"utit":"安娜玛特大牌精选","uimg":"../images/fs086.jpg","uprice":"￥213.00"},
+                    {"utit":"冠军犬的御用粮-佰芙","uimg":"../images/fs087.jpg","uprice":"￥213.00"},
+                    {"utit":"超值折扣4折起","uimg":"../images/fs088.jpg","uprice":"￥213.00"}
+        ]
+  }
+]
